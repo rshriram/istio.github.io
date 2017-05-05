@@ -1,21 +1,19 @@
+markdown:
+  kramdown
+
 kramdown:
   input: GFM
   hard_wrap: false
+  syntax_highlighter: rouge
 
-markdown:
-  kramdown
-kramdown:
-    input: GFM
-    hard_wrap: false
-    syntax_highlighter: rouge
+baseurl:
 
-baseurl: ""
-
-githuburl: https://github.com/istio/istio.github.io/
+liquid:
+  error_mode: strict
 
 sass:
   style: compressed
-  
+
 paginate: 2
 
 paginate_path: "/blog/page:num/"
@@ -45,3 +43,4 @@ exclude:
   - _docs/tutorials/tutorial.md.template
   - _docs/samples/sample.md.template
   - _docs/reference/reference.md.template
+  - scripts/
