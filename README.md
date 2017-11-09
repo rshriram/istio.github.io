@@ -1,4 +1,6 @@
 # istio.github.io
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Frshriram%2Fistio.github.io.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Frshriram%2Fistio.github.io?ref=badge_shield)
+
 
 This repository contains the source code for the [istio.io](https://istio.io) web site.
 
@@ -15,3 +17,7 @@ To run the site locally with Docker, use the following command:
 ```bash
 docker run --rm --label=jekyll --volume=$(pwd):/srv/jekyll  -it -p 127.0.0.1:4000:4000 jekyll/jekyll jekyll serve
 ```
+
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Frshriram%2Fistio.github.io.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Frshriram%2Fistio.github.io?ref=badge_large)
